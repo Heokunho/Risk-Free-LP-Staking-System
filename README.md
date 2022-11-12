@@ -1,4 +1,4 @@
-# Risk-Free-LP-Staking-System
+# Risk-Free LP Staking System
 
 ◎ What is LP Staking?
 
