@@ -31,7 +31,7 @@ Binance 선물 거래의 Short(공매도) 기능을 활용
 
 ◎ Dev Problem & Solution
 
-● LP Staking을 하는 사이트에서 따로 API를 제공하지 않습니다. 
+● LP Staking을 하는 사이트에서 따로 API를 제공하지 않습니다. /n
 -> Token에 속한 암호 화폐 관련 정보를 해당 사이트에서 Crawling 하면 됩니다.
 
 ● BeautifulSoup를 사용하면 실시간 data를 Crawling 할 수 없습니다.
