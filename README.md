@@ -32,13 +32,15 @@ Binance 선물 거래의 Short(공매도) 기능을 활용
 ◎ Dev Problem & Solution
 
 ● LP Staking을 하는 사이트에서 따로 API를 제공하지 않습니다.
+
 -> Token에 속한 암호 화폐 관련 정보를 해당 사이트에서 Crawling 하면 됩니다.
 
 ● BeautifulSoup를 사용하면 실시간 data를 Crawling 할 수 없습니다.
+
 -> Selenium과 Chrome Driver를 사용하면 됩니다.
 
-● Selenium과 Chrome Driver를 통해 Crawling 을 할 시에, 매번 새로운 크롬을 열어서 사용하기 때문에
-   LP Staking에 필요한 크롬 확장 프로그램을 매번 다시 깔아줘야 하는 등의 문제가 발생합니다.
+● Selenium과 Chrome Driver를 통해 Crawling 을 할 시에, 매번 새로운 크롬을 열어서 사용하기 때문에 LP Staking에 필요한 크롬 확장 프로그램을 매번 다시 깔아줘야 하는 등의 문제가 발생합니다.
+   
 -> 크롬을 미리 열어 두고, 이를 이용해 Crawling을 하면 됩니다.
 
 ◎ Development Process
